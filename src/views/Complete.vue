@@ -6,17 +6,16 @@
 
 		<div class="container complete">
 			<div>
-				<text class="back" @click="goBack">{{ '<' }}BACK</text>
+				<text class="back" @click="goBack">{{ '<' }}返 回</text>
 			</div>
 			<img class="completeIcon" src="../assets/images/complete.png" mode=""></img>
 
-			<text class="p1">
-				Complete the task to obtain AON Points
-			</text>
-
-			<text class="p2">
-				Your current points are insufficient. Please complete the task to obtain more AON Points.
-			</text>
+      <text class="p1">
+        完成任务获得AON点数
+      </text>
+      <text class="p2">
+        你目前的积分不足。请完成任务以获得更多AON积分。
+      </text>
 
 			<button>Share</button>
 		</div>

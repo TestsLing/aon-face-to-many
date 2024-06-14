@@ -31,13 +31,14 @@
 				<div class="content">请上传图片！</div>
 			</div>
 			<div class="bottom_btn">
-
+        <div class="spendCount">
+          <img class="icon" src="../assets/icons/money.png" mode=""></img>
+          <text>-8</text>
+        </div>
 				<button class="submitBtn" @click="formSubmit">
 					<text>生成图片</text>
 				</button>
 			</div>
-
-
 		</div>
 	</div>
 </template>

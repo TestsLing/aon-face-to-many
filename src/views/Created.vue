@@ -13,7 +13,7 @@
 			</div>
 			<div class="bottom_btn">
 				<button class="createMore" @click="goToCreate">返 回</button>
-<!--				<button class="shareBtn">Share</button>-->
+				<button class="shareBtn" @click="downloadImage" >分 享</button>
 			</div>
 		</div>
 	</div>
