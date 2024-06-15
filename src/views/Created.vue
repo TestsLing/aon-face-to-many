@@ -8,6 +8,7 @@
 				<img class="res_img" :src="imageUrl" mode=""></img>
 			</div>
 
+      <div>
 			<div class="download">
 				<img src="../assets/icons/download.png" @click="downloadImage" mode=""></img>
 			</div>
@@ -15,6 +16,7 @@
 				<button class="createMore" @click="goToCreate">返 回</button>
 				<button class="shareBtn" @click="downloadImage" >分 享</button>
 			</div>
+      </div>
 		</div>
 	</div>
 </template>
@@ -71,20 +73,20 @@ onMounted(() => {
 	padding-top: 8.53vw;
 	height: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 .resCon{
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
-	height: 116.27vw;
+	height: 80%;
 	width: 100%;
 }
 .res_img {
 	width: 100%;
 	height: auto;
-	max-height: 116.27vw;
+	max-height: 100%;
 }
 
 .download {
