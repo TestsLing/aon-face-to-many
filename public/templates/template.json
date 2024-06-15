@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "image": "template1.png",
+        "prompt": "A figure engulfed in light, with intense glow radiating fiercely behind."
+    },
+    {
+        "id": "2",
+        "image": "template2.png",
+        "prompt": "A person standing amidst a storm, lightning crackling in the background."
+    },
+    {
+        "id": "3",
+        "image": "template3.png",
+        "prompt": "A silhouette surrounded by swirling mist, ethereal light illuminating the scene behind."
+    },
+    {
+        "id": "4",
+        "image": "template4.png",
+        "prompt": "A figure emerging from a dense forest, with beams of sunlight creating a radiant backdrop."
+    }
+]
