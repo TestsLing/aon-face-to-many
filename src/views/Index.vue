@@ -6,11 +6,11 @@
     <div class="container">
       <div class="banner">
         <img src="../assets/images/banner.png" mode=""></img>
-        <p>AON 3D Clothing</p>
-        <p>Customize your clothing logo and generate a 3D avatar</p>
+        <p>AON 一键粘土风</p>
+        <p>粘土世界，指尖创造</p>
       </div>
       <div class="uni-form-item uni-column">
-        <div class="title">Upload your photos</div>
+        <div class="title">上传图片</div>
 
         <div class="content">
           <div class="upload upload-done" v-if="imgUrl">
@@ -22,7 +22,7 @@
 
             <div class="upload upload-before">
               <img class="uploadIcon" src="../assets/icons/uploadImg.png" mode=""></img>
-              <text>limit 30MB per file</text>
+              <text>文件大小限制在30MB内</text>
             </div>
           </van-uploader>
 
@@ -31,15 +31,10 @@
 
       </div>
 
-      <!-- <div class="uni-form-item uni-column">
-        <div class="title">Customize your clothing logo</div>
-        <div class="content">
-          <input v-model="prompt" name="input" placeholder="Please enter the logo text on your clothes" />
-        </div>
-      </div> -->
+
 
       <div class="uni-form-item uni-column">
-        <div class="title">Choose your template</div>
+        <div class="title">请选择你的模版</div>
         <div class="templateCon" v-if="templateList.length > 0">
           <div v-for="(item, index) in templateList"
                :class="`template_item ${Number(item.id) === templateId ? 'templateActive' : ''}`"
@@ -53,7 +48,7 @@
       </div>
 
       <div class="uni-form-item error-text" v-if="showError">
-        <div class="content">Please Upload your photos</div>
+        <div class="content">请上传图片！</div>
       </div>
       <div class="bottom_btn">
         <div class="spendCount">
@@ -61,7 +56,7 @@
           <text>-8</text>
         </div>
         <button class="submitBtn" @click="formSubmit">
-          <text>Generate img</text>
+          <text>生成图片</text>
         </button>
       </div>
 
