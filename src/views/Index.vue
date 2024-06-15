@@ -170,7 +170,7 @@ const formSubmit = async () => {
     const data = {
       input: {
         "image": submitImgUrl.value,
-        "style": "3D",
+        "style": "Clay",
         "prompt": prompt.value,
         "negative_prompt": "",
         "prompt_strength": 4.5,
