@@ -16,7 +16,7 @@ export default defineConfig({
     vueJsx(),
     // VueDevTools(),
   ],
-  base: '/',
+  base: './',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
